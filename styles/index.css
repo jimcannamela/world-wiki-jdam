@@ -3,6 +3,14 @@
     background-repeat: repeat;
 } */
 
+h1, h2 {
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+h1{
+    font-size:;
+}
+
 form {
     width: 50%;
 }
