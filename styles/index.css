@@ -6,6 +6,10 @@ form {
     font-size: smaller;
 }
 
+#description {
+    width: 50%;
+}
+
 fieldset, label {
     background-color: silver;
 }
@@ -34,4 +38,29 @@ fieldset label {
     border-bottom-right-radius: 5%;
     height: 40px;
     width: 150px;   
+}
+
+.locations {
+    width: 50%;
+    background-color: silver;
+    font-size: large;
+    border-style: solid;
+}
+
+.locations th, td {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.locations {
+    font-size: large;
+    
+}
+
+.locations > tbody > tr > td > a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
 }
