@@ -1,9 +1,14 @@
+/* #beanbackground {
+    opacity: 0.3;
+    background-repeat: repeat;
+} */
+
 form {
     width: 50%;
 }
 
 #contact > h2 {
-    font-size: smaller;
+    /* font-size: smaller; */
 }
 
 #description {
