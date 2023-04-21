@@ -19,6 +19,7 @@
   <title>The World of Arabica</title>
 </head>
 <body>
+  <img class="background" src="images/Roasted_coffee_beans.jpg" alt="Beans">
   <header>
     <!-- 
       1. Start with a generic concept for your world. Is it a wasteland? A paradise? A giant ball of cheese?
@@ -105,10 +106,55 @@
       </tfoot> -->
     </table>
   </section>
-
   <section id="contact">
     <h2>Contact Major DaMidge</h2>
-
+    <form>
+      <fieldset>
+        <legend>Address</legend>
+        <p>
+          <label for="street">Street address</label>
+          <input type="text" id="street" name="street" required>
+        </p>
+        <p>
+          <label for="city">City</label>
+          <input type="text" id="city" name="city" required>
+        </p>
+        <p>
+          <label for="state">State or Province</label>
+          <input type="text" id="state" name="state" required>
+        </p>
+        <p>
+          <label for="postal">ZIP or postal code (optional)</label>
+          <input type="number" max="99999" min="11111" id="postal" name="postal" required>  
+        </p>
+        <p>
+          <label for="country">Country or region</label>
+          <input type="text" id="country" name="country" required>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Credit Card Information</legend>
+        <p>
+          <label for="name">Name on Card</label>
+          <input type="text" id="name" name="name">
+        </p>
+        <p>
+          <label for="card">Card Number</label>
+          <input type="text" id="card" name="card">
+        </p>
+        <p>
+          <label for="expiration">Expiration (mm/yy)</label>
+          <input type="text" id="expiration" name="expiration">
+        </p>
+        <p>
+          <label for="security">Security Code</label>
+          <input type="text" id="security" name="security">
+        </p>
+      </fieldset>
+      <footer>
+        <input type="submit" onclick="return false;" value="Share Sensitive Information with Tam">
+      </footer>
+    </form>
     <!-- 
       9. Create a contact form, with at least 4 fields, for others to contact some entity in your world.
         This could be a government travel bureau, a corporation of some sort, or even an individual in your world.
