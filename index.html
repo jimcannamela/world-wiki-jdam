@@ -110,49 +110,34 @@
     <h2>Contact Major DaMidge</h2>
     <form>
       <fieldset>
-        <legend>Address</legend>
+        <legend>Contact Information</legend>
         <p>
-          <label for="street">Street address</label>
-          <input type="text" id="street" name="street" required>
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name" required>
         </p>
         <p>
-          <label for="city">City</label>
-          <input type="text" id="city" name="city" required>
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" placeholder="email@domain.com" required>
         </p>
         <p>
-          <label for="state">State or Province</label>
-          <input type="text" id="state" name="state" required>
+          <label for="location">Location: </label>
+          <select name="location" id="location">
+            <option value="Dunkin Heights">Dunkin Heights</option>
+            <option value="Starbucks Sea">Starbucks Sea</option>
+            <option value="Folger's Hideaway">Folger's Hideaway</option>
+          </select>
         </p>
         <p>
-          <label for="postal">ZIP or postal code (optional)</label>
-          <input type="number" max="99999" min="11111" id="postal" name="postal" required>  
+          <label for="comments">Additional Comments: </label>
+          <textarea rows="5" id="comments" name="comments" required></textarea>
         </p>
         <p>
-          <label for="country">Country or region</label>
-          <input type="text" id="country" name="country" required>
-        </p>
-      </fieldset>
-      <fieldset>
-        <legend>Credit Card Information</legend>
-        <p>
-          <label for="name">Name on Card</label>
-          <input type="text" id="name" name="name">
-        </p>
-        <p>
-          <label for="card">Card Number</label>
-          <input type="text" id="card" name="card">
-        </p>
-        <p>
-          <label for="expiration">Expiration (mm/yy)</label>
-          <input type="text" id="expiration" name="expiration">
-        </p>
-        <p>
-          <label for="security">Security Code</label>
-          <input type="text" id="security" name="security">
+          <input type="checkbox" id="confirmation" name="confirmation" required>
+          <label for="confirmation">By checking this box, I affirm that I understand my information will not be stored, read, or acknowledged in any way by anyone.</label>
         </p>
       </fieldset>
       <footer>
-        <input type="submit" onclick="return false;" value="Share Sensitive Information with Tam">
+        <input class="submit" type="submit" onclick="return false;" value="Submit Email">
       </footer>
     </form>
     <!-- 

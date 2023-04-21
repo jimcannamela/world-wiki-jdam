@@ -8,3 +8,8 @@ body {
 img.background {
     opacity: 0.5;
 } */
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
