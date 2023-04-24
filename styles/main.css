@@ -2,16 +2,19 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body > h1 {
+    text-align: center;
+}
+
 body {
     /* background-color: rgb(196, 220, 228); */
-    background-color: lightgray;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/Roasted_coffee_beans.jpg");
+    background-blend-mode: overlay;
+    background-color: silver;
 }
-    /* background: url("images/Roasted_coffee_beans.jpg"); */
-    /* background-repeat: repeat; */
-/* }
-img.background {
-    opacity: 0.5;
-} */
 
 footer {
     padding: 10px;

@@ -3,12 +3,25 @@ body {
     background-blend-mode: overlay;
 }
 
+/* #beanbackground {
+    opacity: 0.3;
+    background-repeat: repeat;
+} */
+
+h1, h2 {
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+h1{
+    font-size:;
+}
+
 form {
     width: 50%;
 }
 
 #contact > h2 {
-    font-size: smaller;
+    /* font-size: smaller; */
 }
 
 #description {
