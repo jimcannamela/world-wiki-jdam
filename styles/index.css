@@ -1,3 +1,8 @@
+body {
+    background-image: url(../images/Roasted_coffee_beans.jpg);
+    background-blend-mode: overlay;
+}
+
 form {
     width: 50%;
 }
